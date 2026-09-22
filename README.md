@@ -38,6 +38,7 @@ Bond Rotation Strategy Performance: Rotating capital into 10-year Government Bon
 Key Strategic Finding: Both initial tactical models underperformed the baseline Buy & Hold approach (11.12x) due to frequent whipsawing during recovery phases.
 
 ⚙️ Regime Threshold Tuning & Signal Optimization
+
 Optimization Goal: Minimize false-positive "Stress" signals caused by simple moving average breaches.
 
 Refined Logic: Implemented a dual-condition stress filter requiring both a price breakdown below the 200-day moving average and a 21-day volatility spike exceeding the historical 75th percentile.
